@@ -42,10 +42,11 @@
 			padding: 10px 0;
 			flex-wrap: wrap;
 			align-items: center;
-			display: none;
+			transition: 0.7s;
+			transform: translateX(-100%);
 			
 			&.active {
-				display: flex;
+				transform: translateX(0);
 			}
 			
 		  a,

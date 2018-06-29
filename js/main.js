@@ -71,7 +71,8 @@ $(function() {
 
 	//menu
 
-	$('.toggle-mobile-menu').click(function(event) {
+	$('.toggle-mobile-menu, .hamburger').click(function(event) {
+		$(this).toggleClass('is-active');
 		$('.header-main nav').toggleClass('active');
 	});
 
