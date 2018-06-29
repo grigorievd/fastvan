@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <rect id="b" width="359" height="892" rx="6"/>
+        <filter id="a" width="113.4%" height="105.4%" x="-6.7%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-153 -30)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <rect width="358" height="891" x=".5" y=".5" fill="#FFF" stroke="#EAEAEA" stroke-linejoin="square" rx="6"/>
+        </g>
+        <path fill="#F60" fill-rule="nonzero" d="M50 46.774v-1.613h-1.613V24.194h-1.613V0H19.355v9.677H3.225v14.517H1.614V45.16H0v1.613h1.613v1.613H0V50h50v-1.613h-1.613v-1.613H50zM31.452 1.613h3.225v9.677h-3.225V1.613zm-10.484 0h8.87v11.29h6.452V1.613h8.871v22.58H22.58V9.678h-1.612V1.613zm16.935 24.193v6.452h-3.226v-6.452h3.226zM12.097 11.29h1.613v6.452h-1.613V11.29zm-7.258 0h5.645v8.065h4.839V11.29h5.645v12.904H4.838V11.29zm10.484 14.516v6.452h-3.226v-6.452h3.226zm-12.097 0h7.258v8.065h6.451v-8.065h7.259v19.355H3.226V25.806zm1.613 22.581H3.226v-1.613h1.613v1.613zm17.742 0H6.45v-1.613h16.13v1.613zm3.225 0h-1.612v-1.613h1.612v1.613zm17.742 0H27.42v-1.613h16.13v1.613zm3.226 0h-1.613v-1.613h1.613v1.613zm0-3.226H25.806V25.806h7.259v8.065h6.451v-8.065h7.258v19.355zm-3.226-3.226h1.613v1.613h-1.613v-1.613zm-3.225 0h1.612v1.613h-1.612v-1.613zm-3.226 0h1.613v1.613h-1.613v-1.613zm6.451-3.225h1.613v1.613h-1.613V38.71zm-3.225 0h1.612v1.613h-1.612V38.71zm3.225-3.226h1.613v1.613h-1.613v-1.613zm-22.58 6.451h1.613v1.613h-1.613v-1.613zm-3.226 0h1.613v1.613h-1.613v-1.613zm-3.226 0h1.613v1.613h-1.613v-1.613zm6.452-3.225h1.613v1.613h-1.613V38.71zm-3.226 0h1.613v1.613h-1.613V38.71zm3.226-3.226h1.613v1.613h-1.613v-1.613zm20.967-14.516h1.613v1.613h-1.613v-1.613zm-3.225 0h1.613v1.613H38.71v-1.613zm-3.226 0h1.613v1.613h-1.613v-1.613zm6.451-3.226h1.613v1.613h-1.613v-1.613zm-3.225 0h1.613v1.613H38.71v-1.613zm3.225-3.226h1.613v1.613h-1.613v-1.613z"/>
+    </g>
+</svg>
