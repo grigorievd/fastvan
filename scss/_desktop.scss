@@ -759,13 +759,6 @@ a.btn,.btn {
 		&[type="submit"] {
 			padding: 16px 36px;
 		  transition: 0.3s;
-			border: 2px solid transparent;
-			
-			&:hover {
-				border-color: $color-orange;
-				background: none;
-				color:$color-orange !important;
-			}
 		}
 		
 		%placeholder {
@@ -788,6 +781,16 @@ a.btn,.btn {
 		&:-moz-placeholder { /* Firefox 18- */
 			opacity: 1;
 			color:rgba(0, 0, 0, 0.25);
+		}
+	}
+	
+	&.contact-form input[type="submit"] {
+		border: 2px solid transparent;
+
+		&:hover {
+			border-color: $color-orange;
+			background: none;
+			color:$color-orange !important;
 		}
 	}
 }
